@@ -1,0 +1,170 @@
+.footer {
+    height: 685px;
+    background: url("../img/all.jpg") center (center/cover) no-repeat;
+
+    .container {
+        background: #0000CD;
+        height: 685px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 685px;
+        border: none;
+    }
+
+    &__wrapper {
+        width: 700px;
+        height: 685px;
+        position: absolute;
+        left: 500px;
+        top: 0px;
+    }
+
+    &__line {
+        position: absolute;
+        left: 96px;
+        top: 108px;
+        border: solid;
+        width: 156px;
+        height: 1px;
+        border-color: white;
+        border-radius: 100%;
+    }
+
+    h2 {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        padding: 52px 0 0 99px;
+        span {
+            color: #ffc600;
+            font-size: 50px;
+        }
+    }
+
+    .overlay {
+        width: 300px;
+        height: 230px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: stretch;
+        margin-left: 76px;
+        margin-top: 18px;
+        input {
+            width: 300px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+            padding-left: 13px;
+        }
+        textarea {
+            width: 300px;
+            color: #ffffff;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: left;
+            padding-left: 13px;
+        }
+
+        button {
+            margin-top: 22px;
+            background-color: rgba( 218, 165, 32, 1);
+            color: #000000;
+            font-size: 16px;
+            font-weight: 400;
+            text-align: center;
+            text-transform: uppercase;
+            width: 110px;
+            height: 35px;
+        }
+    }
+
+    &__adress {
+        margin: 75px 0 0 98px;
+        color: #ffffff;
+        font-family: "Myriad Pro - Semibold";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        span {
+            margin-left: 24px;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+    &__phone {
+        display: block;
+        margin: 28px 0 0 98px;
+        color: #ffffff;
+        font-family: "Myriad Pro - Semibold";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        span {
+            margin-left: 36px;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+    &__email {
+        margin: 28px 0 0 98px;
+        color: #ffffff;
+        font-family: "Myriad Pro - Semibold";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: left;
+        span {
+            margin-left: 36px;
+            color: #ffffff;
+            font-size: 12px;
+            font-weight: 400;
+            text-align: left;
+        }
+    }
+
+    &__linetwo {
+        position: absolute;
+        left: 96px;
+        top: 595px;
+        border: solid;
+        width: 290px;
+        height: 1px;
+        border-color: white;
+        border-radius: 100%;
+    }
+
+    &__items {
+        width: 100px;
+        height: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 78px 0 0 98px;
+    }
+
+    &__item {
+        width: 20px;
+        height: 20px;
+        border-radius: 100px;
+        background: #0000CD;
+    }
+
+    &__img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+
+
+
+}

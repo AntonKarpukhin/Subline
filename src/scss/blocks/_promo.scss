@@ -1,0 +1,64 @@
+.promo {
+    min-height: 1086px;
+
+    .container {
+        position: absolute;
+        top: 114px;
+        left: 101px;
+        right: 101px;
+    }
+
+    &__fon  {
+        z-index: 1;
+        min-height: 782px;
+        background: url("../img/fon.jpg") center (center/cover) no-repeat;
+    }
+
+    &__fon2 {
+        z-index: 1;
+        min-height: 350px;
+        background: url("../img/fon2.jpg") center (center/cover) no-repeat;
+    }
+
+    h1 {
+
+        color: #ffffff;
+        font-size: 202px;
+        font-weight: 700;
+        line-height: normal;
+        padding-left: 35px;
+        animation-duration: 3s;
+        
+        span {
+            color: #ffc600;
+            font-style: normal;
+            letter-spacing: -3px;
+            line-height: normal;
+        }
+    }
+
+    h2 {
+        margin-top: -40px;
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        padding-left: 42px;
+        span {
+            color: #ffc600;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        }
+    }
+
+
+    
+    
+
+
+
+
+
+}

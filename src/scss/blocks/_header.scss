@@ -1,0 +1,48 @@
+.header {
+    margin-top: 111px;
+    min-height: 654px;
+    background: url("../img/fonhead.jpg") center (center/cover) no-repeat;
+
+    h3 {
+        padding: 70px 0 0 46px;
+        color: #ffffff;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 48px;
+        text-align: left;
+        span {
+            color: #ffc600;
+            font-style: normal;
+            letter-spacing: -3px;
+            line-height: normal;
+        }
+    }
+
+    &__wrapper {
+        margin-top: 60px;
+        padding-left: 42px;
+        width: 355px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__info {
+        color: #ffc600;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+
+
+
+
+
+
+
+
+}
+

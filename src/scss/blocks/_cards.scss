@@ -1,0 +1,24 @@
+.cards {
+    margin: 0 auto;
+    min-height: 534px;
+    background: url("../img/all.jpg") center (center/cover) no-repeat;
+    .container {
+        background-color: white;
+        margin: 0 auto;
+    }
+
+    &__wrapper {
+        padding-top: 26px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__img {
+        width: 300px;
+        height: 267px;
+        &:nth-child(odd) {
+            margin-top: 1px;
+        }
+    }
+}
+

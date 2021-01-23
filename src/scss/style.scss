@@ -1,0 +1,25 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+    font-family: 'Myriad', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 2;
+    position: relative;
+}
+
+
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/about';
+@import 'blocks/cards';
+@import 'blocks/strat';
+@import 'blocks/services';
+@import 'blocks/team';
+@import 'blocks/test';
+@import 'blocks/blogs';
+@import 'blocks/footer';

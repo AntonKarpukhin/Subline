@@ -1,0 +1,73 @@
+.services {
+    min-height: 480px;
+    background: url("../img/all.jpg") center (center/cover) no-repeat;
+
+    .container {
+        min-height: 480px;
+        background: url("../img/five.jpg") center (center/cover) no-repeat;
+    }
+
+    h2 {
+        padding: 45px 0 0 66px;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        span {
+            color: #ffc600;
+            font-size: 50px;
+        }
+    }
+
+    &__line {
+        position: absolute;
+        left: 69px;
+        top: 103px;
+        border: solid;
+        width: 227px;
+        height: 1px;
+        border-color:rgba( 105, 105, 105, 1);
+        border-radius: 100%;
+    }
+
+    &__wrapper {
+        height: 290px;
+        width: 546px;
+        margin-left: 475px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__item {
+        width: 225px;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    &__descr {
+        color: #ffffff;
+        font-size: 11px;
+        font-weight: 400;
+        text-align: left;
+        margin-top: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

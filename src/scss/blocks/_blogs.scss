@@ -1,0 +1,92 @@
+.blogs {
+    min-height: 535px;
+    background: url("../img/all.jpg") center (center/cover) no-repeat;
+    .container {
+        background: white;
+        min-height: 535px;
+    }
+
+    h2 {
+        padding: 60px 0 0 58px;
+        color: black;
+        font-size: 30px;
+        font-weight: 400;
+        text-align: left;
+        span {
+            color: #ffc600;
+            font-size: 50px;
+        }
+    }
+
+    &__line {
+        position: absolute;
+        left: 57px;
+        top: 117px;
+        border: solid;
+        width: 86px;
+        height: 1px;
+        border-color: rgba( 105, 105, 105, 0.1);
+        border-radius: 100%;
+    }
+
+    &__menu {
+        margin: 50px 0 0 143px;
+        width: 151px;
+        height: 272px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__item {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+        &:hover {
+            color: #ffc600;
+        }
+    }
+
+    &__wrapper {
+        width: 740px;
+        height: 335px;
+        position: absolute;
+        left: 408px;
+        top: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__items {
+        width: 187px;
+        height: 335px;
+    }
+
+    &__title {
+        color: #ffc600;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+    }
+
+    &__descr {
+        margin-top: 20px;
+        color: #000000;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: left;
+        span {
+           font-weight: 300;
+        }
+    }
+
+
+
+
+
+
+
+
+
+}
